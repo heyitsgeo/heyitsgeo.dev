@@ -10,7 +10,7 @@ const AboutCommand: React.FC<AboutCommandProps> = (_) => {
       <div className={'flex flex-col gap-4'}>
         <p>I'm Geo Stokes!</p>
         <p>
-          I have been a software engineer since 2015 and have focused my energy on honing my front-end design and development skills.
+          I have been a software engineer since 2016 and have focused my energy on honing my front-end design and development skills.
           It's important to me to be well-versed in engineering and consulting. I strive to understand each problem deeply so I can provide the best possible solution and communicate effectively with people of varying degrees of technicality.
         </p>
         <p>
