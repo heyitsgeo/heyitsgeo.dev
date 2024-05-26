@@ -41,8 +41,8 @@ const ContactCommand: React.FC<ContactCommandProps> = ({ args }) => {
       <div className={'flex flex-col gap-2'}>
         {CONTACTS.map((contact, index) => (
           <div className={'grid grid-cols-2'} key={contact.name}>
-            <span className={'text-blue-ribbon-500'}>{index + 1}. <CommandLink command={`contact ${contact.name.toLowerCase()}`}>{contact.name}</CommandLink></span>
-            <span>
+            <span className={'text-blue-ribbon-500 md:col-span-1 col-span-2'}>{index + 1}. <CommandLink command={`contact ${contact.name.toLowerCase()}`}>{contact.name}</CommandLink></span>
+            <span className={'md:col-span-1 col-span-2'}>
               {contact.link}
             </span>
           </div>
