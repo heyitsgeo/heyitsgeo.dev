@@ -2,6 +2,7 @@ import * as React from "react"
 import { Link, HeadFC, PageProps } from "gatsby"
 
 import meAnimation from '@images/me-animated.gif';
+import SEO from '@components/seo';
 
 const NotFoundPage: React.FC<PageProps> = () => {
   return (
@@ -26,4 +27,6 @@ const NotFoundPage: React.FC<PageProps> = () => {
 
 export default NotFoundPage
 
-export const Head: HeadFC = () => <title>Not found</title>
+export const Head: HeadFC = () => (
+  <SEO pathname={'/404'}/>
+);
