@@ -1,3 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+
+  /* GREEN */
+  --green-50: #e6ffe4;
+  --green-100: #c8ffc5;
+  --green-200: #94ff92;
+  --green-300: #53ff55;
+  --green-400: #34fc3c;
+  --green-500: #00e20c;
+  --green-600: #00b510;
+  --green-700: #02890e;
+  --green-800: #086c12;
+  --green-900: #0c5b15;
+  --green-950: #003308;
+
+  /* BLUE RIBBON */
+  --blue-ribbon-50: #eff5ff;
+  --blue-ribbon-100: #dae8ff;
+  --blue-ribbon-200: #bdd7ff;
+  --blue-ribbon-300: #90beff;
+  --blue-ribbon-400: #5c9afe;
+  --blue-ribbon-500: #2c6dfb;
+  --blue-ribbon-600: #2053f0;
+  --blue-ribbon-700: #183fdd;
+  --blue-ribbon-800: #1a34b3;
+  --blue-ribbon-900: #1b328d;
+  --blue-ribbon-950: #152056;
+
+  --lavender-rose-50: #fcf3fa;
+  --lavender-rose-100: #fbe8f8;
+  --lavender-rose-200: #f9d1f2;
+  --lavender-rose-300: #f5a9e5;
+  --lavender-rose-400: #ee78d3;
+  --lavender-rose-500: #e54fbe;
+  --lavender-rose-600: #d32fa0;
+  --lavender-rose-700: #b62083;
+  --lavender-rose-800: #971d6c;
+  --lavender-rose-900: #7e1d5c;
+  --lavender-rose-950: #4d0a35;
+}
+
+@layer base {
+  html {
+    font-family: 'Noto Sans Sans', monospace;
+    background-color: var(--black);
+  }
+}
+
